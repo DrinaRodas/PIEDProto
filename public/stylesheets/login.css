@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+label a {
+    color: #000;
+}
+
+label a:hover,
+label a:focus,
+label a:active,
+label a.active {
+    color: #dba600;
+}
+
+.navbar{
+
+    background: #dba600;
+    opacity: 0.4;
+    border: 0px;
+}
+
+.navbar .navbar-header a{
+    
+    color: #2b2823;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-nav li a {
+
+    color: #2b2823;
+    font-size: 1em;
+}
+
+header {
+    background-image: url(../images/login.jpg);
+    width: 100%;
+    height: 100%; 
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-default {
+    background: #222;
+    opacity: 0.4;
+    border: 0px;
+    margin-bottom: 0px;
+
+}
+
+.panel-heading {
+    background: #fff;
+    opacity: 0.4;
+    border: 0px;
+}
+
+.panel-heading .panel-title {
+    color: #000;
+}
+
+.form-group label {
+    color: #dba600;
+}
+
+.panel-footer {
+    background: #fff;
+    opacity: 0.4;
+    border: 0px;
+}
+
+.btn-primary {
+    border-color: #000;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #dba600;
+    background-color:#000;
+    
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #000;
+    color: #fff;
+    background-color: #dba600;
+    
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+.btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+.btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+.btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+.btn-primary.active {
+    border-color: #000;
+    background-color: #000;
+}
+
+
+.btn-default {
+    border-color: #000;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #000;
+    background-color:#fff;
+    
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    border-color: #000;
+    color: #dba600;
+    background-color: #fff;
+    
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+.btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+.btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+.btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+.btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+.btn-default.active {
+    border-color: #000;
+    background-color: #fff;
+}
+
+a {
+    color: #000;
+    font-size: 1em;
+
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fc8c06;
+}
+
+.copyright {
+    color: #000;
+    font-size: 1em;
+}
+
+.credito {
+    color: #000;
+    font-size: 1em;
+}
+

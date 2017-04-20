@@ -1,0 +1,32 @@
+<form>
+          <h3>Sistemas Númericos</h3>
+            <div class="has-feedback">
+              <div col-md-2 col-md-offset-4">
+                <select id="base">
+                  <option value="10">Decimal</option>
+                  <option value="2" active>Binario</option>
+                  <option value="8">Octal</option>
+                  <option value="16">Hexadecimal</option>
+                </select>
+              </div>
+            </div>
+            <div class="has-feedback">
+              <div col-md-2 col-md-offset-4">
+              <input type="text" class="form-control" placeholder="Ingresa un número" id="numero"></input>
+              <span class="glyphicon glyphicon-tasks form-control-feedback"></span>
+              </div>
+            </div>
+              <button type="submit" class="btn btn-xl" onclick="document.getElementById(sCambiaSistema(numero, base))>Calcular</i></button>
+        </form>
+        <br>
+        <br>
+        <div class="todoList">
+          <h4>Resultado</h4>
+          <div class="item">
+            <span class="prioridad">Resultado es igual a: {{}}</span>|
+            <span class="prioridad">{{tarea.content}}</span>|
+            <span>
+            <span class="prioridad">{{tarea.date}}</span>|
+          </div>
+        </div>
+     

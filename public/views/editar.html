@@ -1,0 +1,33 @@
+        <form>
+          <h3>Editar Tareas</h3>
+          <div class="has-feedback">
+              <input type="text" class="form-control" placeholder="Tarea" ng-model="tarea.name" value="{{tarea.name}}"></input>
+              <span class="glyphicon glyphicon-tasks form-control-feedback"></span>
+          </div>
+          <div class="has-feedback">
+              <input type="text" class="form-control" placeholder="Descripción" ng-model="tarea.content" value="{{tarea.content}}"></input>
+              <span class="glyphicon glyphicon-list-alt form-control-feedback"></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-time">&nbsp;</span><span class="lead prioridad">Elige la prioridad</span>
+            <label class="radio-inline">
+              <input type="radio" ng-model="tarea.priority" value="Baja"> Baja </label>
+            <label class="radio-inline">
+              <input type="radio" ng-model="tarea.priority" value="Normal"> Normal </label>
+            <label class="radio-inline">
+              <input type="radio" ng-model="tarea.priority" value="Alta"> Alta </label>    
+          </div>
+          <br>
+          <div>
+              <input type="date" class="form-control" ng-model="{{tarea.date}}" value="{{tarea.date}}"></input>
+          </div>
+          <br>
+          <div class="text-center editBtn">
+          <button type="submit" class="btn btn-xl"> ACTUALIZAR</button>
+          <button type="submit" class="btn btn-xl"> ELIMINAR</i></button>
+          </div>
+        </form>
+        <br>
+        <div>
+          <a href="tareas.html">Regresar</a>
+        </div>

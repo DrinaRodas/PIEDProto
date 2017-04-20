@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.navbar{
+
+    background: #dba600;
+    opacity: 0.4;
+    border: 0px;
+}
+
+.navbar .navbar-header a{
+    
+    color: #2b2823;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-nav li a {
+
+    color: #2b2823;
+    font-size: 1em;
+}
+
+header {
+    background-image: url(../images/board.jpg);
+    width: 100%;
+    height: 100%; 
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.cssToolTip {
+ position: relative;
+}
+ 
+.cssToolTip span {
+ background: rgba(20,20,20,0.9) center left 5px no-repeat; 
+ border: 2px solid #fff;
+ border-radius: 5px;
+ box-shadow: 15px 15px 15px #333;
+ color: #dba600;
+ display: none;
+ font-size:10px;
+ padding: 5px 5px 5px 5px;
+ max-width: 600px;
+ position: absolute; 
+ top: -30px; 
+ left: -10px; 
+ z-index: 100; 
+}
+
+.cssToolTip:hover span {
+ display: inline; 
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #000;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #222;
+    opacity: 0.6;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #222;
+    background-color: #fff;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #222;
+    background-color: #fff;
+}
+
+.btn-xl .badge {
+    color: #222;
+    background-color: #fff;
+}
+
+.copyright {
+    color: #000;
+    font-size: 1em;
+}
+
+.credito {
+    color: #000;
+    font-size: 1em;
+}
+

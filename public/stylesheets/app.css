@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    color: #dba600;
+}
+
+a{
+  color: #dba600;
+}
+
+a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar{
+
+    background: #000;
+    opacity: 0.6;
+    border: 0px;
+    position: fixed;
+    overflow: auto;
+}
+
+.navbar .navbar-header a {
+    
+    color: #fff;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-header a:hover {
+    color: #dba600;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.navbar-default .navbar-brand {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fff;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #777;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #777;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #F39C83;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2.5em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #F39C83;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+ #drop .dropdown-toggle {
+    background-color: transparent;
+}
+
+header {
+    background-image: url(../images/tarea.jpg);
+    width: auto;
+    height: auto; 
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.prioridad {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+input[type='text'] {
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.editBtn button{
+   width: 30%;
+   margin: 10px auto;
+}
+
+.todoList {
+    background-color: #000;
+    opacity: 0.9;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    color: #454545;
+}
+
+.glyphicon-circle-arrow-up,
+.glyphicon-circle-arrow-down,
+.glyphicon-edit,
+.glyphicon-remove{
+    cursor: pointer
+}
+
+.item {
+    text-transform: capitalize;
+    border-bottom: 1px solid #dba600;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.item.ng-move,
+.item.ng-enter,
+.item.ng-leave {
+    transition: all linear 1s;
+}
+
+.item.ng-leave.ng-leave-active,
+.item.ng-move,
+.item.ng-enter {
+    opacity: 0;
+}
+
+.item.ng-leave,
+.item.ng-move.ng-move-active,
+.item.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.copyright {
+    color: #000;
+    font-size: 1em;
+}
+
+.credito {
+    color: #000;
+    font-size: 1em;
+}

@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.navbar{
+
+    background: #000;
+    opacity: 0.6;
+    border: 0px;
+}
+
+.navbar .navbar-header a{
+    
+    color: #fff;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-header a:hover {
+    color: #dba600;
+}
+
+header {
+    background-image: url(../images/library.jpg);
+    width: 100%;
+    height: 100%; 
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.copyright {
+    color: #000;
+    font-size: 1em;
+}
+
+.credito {
+    color: #000;
+    font-size: 1em;
+}
+
