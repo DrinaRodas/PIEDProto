@@ -11,6 +11,11 @@
     content: '';
     background: transparent url(../images/pattern.png) repeat top left; 
 }
+
+.cb-slideshow ul {
+    list-style: none;
+    padding-left: 0px !important;
+}
 .cb-slideshow li span { 
     width: 100%;
     height: 100%;
